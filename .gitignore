@@ -587,7 +587,6 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 ### Extra added by me
-/CoordinateSystems.txt
-/VirtualEnvForMasterCalculator/
+VenvExcelDashboard/
 
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudio,windows

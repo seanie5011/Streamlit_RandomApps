@@ -11,6 +11,8 @@
 # activate this venv by typing: 'VenvExcelDashboard\Scripts\activate'
 # your fresh line should read: '(VenvExcelDashboard) C:\Users\seani\source\repos\Python\Streamlit\Streamlit_RandomApps\ExcelDashboard>'
 # now type: 'streamlit run ExcelDashboard.py'
+#
+# LIBRARIES: streamlit, plotly-express, pandas
 
 import pandas as pd
 import plotly.express as px

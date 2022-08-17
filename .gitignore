@@ -588,5 +588,6 @@ FodyWeavers.xsd
 
 ### Extra added by me
 VenvExcelDashboard/
+/SalaryPrediction/survey_results_public.csv
 
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudio,windows

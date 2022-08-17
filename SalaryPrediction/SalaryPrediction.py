@@ -9,6 +9,10 @@
 # The web-app will be created using streamlit
 #
 # LIBRARIES: streamlit, scikit-learn, matplotlib, pandas, numpy
+#
+# This scripts purpose is to create the dataframe used, perform some pre-processing, create and save the model
+# there are some visuals using streamlit
+# run in the usual streamlit fashion
 
 import pandas as pd
 import matplotlib.pyplot as plt

@@ -6,17 +6,28 @@ This project is an umbrella containing various web-apps using Streamlit. These a
 1. [ExcelDashboard](#exceldashboard)
 2. [SalaryPrediction](#salaryprediction)
 
+**[User Instructions](#user-instructions)**
+
 ### ExcelDashboard
 
-This simple app can take user inputted data to convert from one unit to another. It can take any **floating point** number given in units of *kg* and convert it to *lbs*. It can also convert *kg to tonne*, and vice versa.
+This app displays various features of a typical Sales Report Excel Spreadsheet - by collecting data using *openpyxl* and *pandas*, such as Total Sales, Average sales per transaction, etc. It uses *plotly-express* to display plots of Total Sales by hour, and Sales by product line. There is features to filter by city, customer-type, and gender - which is updated in real-time.
 
+The Excel Spreadsheet used is supplied, *supermarkt_sales.xlsx*.
 
+**LIBRARIES USED: streamlit, plotly-express, pandas, openpyxl**
+
+![github_ExcelDashboard_mainpage](https://user-images.githubusercontent.com/72211395/185999249-134ae347-b13c-49b2-85f6-022841ebc852.png)
 
 ### SalaryPrediction
 
-This app allows the user to predict the expected salary of a Software Developer, given inputs like the Country, Education Level, and Years of Experience. The machine-learning model was created using *scikit-learn*
+This app allows the user to predict the expected salary of a Software Developer, given inputs like the Country, Education Level, and Years of Experience. The machine-learning model was created using *scikit-learn*, trained on data from the [Stack Overflow Software Developer Survey 2022](https://insights.stackoverflow.com/survey/). This is a survey collecting relevant data from over 74k participants, as such, *pandas* was used to help with data handling and pre-processing. Some data-visualisation of the Salary vs Other Parameters was created using *Matplotlib*.
 
+This app requires the user to download the survey file from the link above, and move the *survey_results_public.csv* file into the directory of this project. The user will have to run the *SalaryPrediction.py* file using the steps below to create a *.pkl* file which contains the Prediction model. Finally, the user can run the *app.py* file as below.
 
+**LIBRARIES USED: streamlit, scikit-learn, matplotlib, pandas, numpy**
+
+![github_SalaryPrediction_predictpage](https://user-images.githubusercontent.com/72211395/185998483-c5d91d65-cfac-4df1-8748-a4f3851a565d.png)
+![github_SalaryPrediction_explorepage](https://user-images.githubusercontent.com/72211395/185998514-414bab8c-c8f1-41b3-a418-149b94cfddf3.png)
 
 ## User Instructions
 
@@ -24,8 +35,10 @@ This app allows the user to predict the expected salary of a Software Developer,
 3. Create a virtual enviroment to be used, ideally in the same folder as this project
 2. Install the necessary libraries as detailed, using *pip*  
 ``pip install *library*``  
-3. Open the terminal in the directory of the desired script (CTRL + L, type ``cmd``), or cd into them
+*Note: ensure protobuf is of version 3.20.x or lower; using ``pip install --upgrade protobuf==3.19.0``*
+3. Open the terminal in the directory of the desired script (CTRL + L, type ``cmd``), or cd into it
 4. Activate the Virtual Enviroment
 ``*venv*\Scripts\activate``
 5. Run the script using Streamlit
-``streamlit run *file*.py``
+``streamlit run *file*.py``  
+*Note: To close the app, CTRL + C on the terminal then close the browser*

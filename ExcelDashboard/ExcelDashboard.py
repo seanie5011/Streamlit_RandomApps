@@ -13,7 +13,7 @@
 # now type: 'streamlit run ExcelDashboard.py'
 # to close, type into terminal CTRL + C, then close page
 #
-# LIBRARIES: streamlit, plotly-express, pandas
+# LIBRARIES: streamlit, plotly-express, pandas, openpyxl
 
 import pandas as pd
 import plotly.express as px

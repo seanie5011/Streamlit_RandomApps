@@ -180,9 +180,8 @@ def main():
 
     st.markdown(hide_st_style, unsafe_allow_html=True)  # unsafe_allow_html makes it so the CSS code is escaped
 
-    # NOT WORKING:
     # We also created more styling by adding the .streamlit folder
-    # in here, the config.toml file sets the theme
+    # in here, the config.toml file sets the theme (used Sublime TExt to create file)
     # we have set the primary and background and secondary background and text colors, and the font
 
 if __name__ == '__main__':

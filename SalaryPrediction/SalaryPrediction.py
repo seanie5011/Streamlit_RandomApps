@@ -92,6 +92,10 @@ def main():
 
     df['EdLevel'] = df['EdLevel'].apply(clean_education)
 
+    st.dataframe(df)
+    st.write(df.Country.value_counts())  # each country listed
+    st.write(df.EdLevel.value_counts())  # each education listed
+
     # Our ML model cant understand the strings in Education
     # Lets use an sklearn class 'LabelEncoder' to assign a value to each that the model can understand
     le_education = LabelEncoder()

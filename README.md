@@ -5,6 +5,7 @@ This project is an umbrella containing various web-apps using Streamlit. These a
 
 1. [ExcelDashboard](#exceldashboard)
 2. [SalaryPrediction](#salaryprediction)
+3. [AllStreamlitWidgets](#allstreamlitwidgets)
 
 **[User Instructions](#user-instructions)**
 
@@ -28,6 +29,16 @@ This app requires the user to download the survey file from the link above, and 
 
 ![github_SalaryPrediction_predictpage](https://user-images.githubusercontent.com/72211395/185998483-c5d91d65-cfac-4df1-8748-a4f3851a565d.png)
 ![github_SalaryPrediction_explorepage](https://user-images.githubusercontent.com/72211395/185998514-414bab8c-c8f1-41b3-a418-149b94cfddf3.png)
+
+## AllStreamlitWidgets
+
+This app contains all streamlit widgets (within reasonable use). It does not contain explanations of all these widgets, it is simply meant to be a display of these as a way to learn what streamlit has to offer.
+
+Helper files are supplied which are used, the user must download these.
+
+**LIBRARIES: streamlit, pandas, numpy, altair, plotly-expressm matplotlib**
+
+![github_AllStreamlitWidgets_cover](https://user-images.githubusercontent.com/72211395/186449950-1cf02cb9-e281-4cc4-9cf0-a8a4db157cd9.png)
 
 ## User Instructions
 

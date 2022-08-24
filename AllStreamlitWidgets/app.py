@@ -7,7 +7,7 @@
 # Some may be taken from the docs, found at: https://docs.streamlit.io/library/cheatsheet
 # Otherwise, comments will be made when needed
 #
-# LIBRARIES: streamlit, pandas, numpy, altair, plotly-express
+# LIBRARIES: streamlit, pandas, numpy, altair, plotly-expressm matplotlib
 
 import streamlit as st
 from pandas import util
